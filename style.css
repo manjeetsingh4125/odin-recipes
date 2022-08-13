@@ -1,15 +1,16 @@
 body{
    /* background-color: rgb(142, 234, 208);*/
-   background-color: #41B3A3;
+  /* background-color: #41B3A3;*/
+  background-image: linear-gradient(rgb(67, 82, 214), rgb(255, 255, 255));
 }
 
-#header, .click, .image, h3{
+#header, .click, .image, h2{
     text-align: center;
 }
 
 .click{
-    color: blue;
-    font-size: 20px;
+    color: rgb(141, 28, 212);
+    font-size: 22px;
 }
 
 .center{
@@ -22,8 +23,13 @@ p{
     font-size: 18px;
 }
 
-h1{
+#header{
     color: whitesmoke;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 28px;
 }
 
 ul{
