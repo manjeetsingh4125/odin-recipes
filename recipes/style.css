@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(135deg, rgb(132, 0, 255,0.5), rgba(6, 2, 250, 0.5), rgba(249, 33, 227, 0.8));
+   /* background-image: linear-gradient(135deg, rgb(132, 0, 255,0.5), rgba(6, 2, 250, 0.5), rgba(249, 33, 227, 0.8));*/
+   background-image: linear-gradient(135deg, rgb(202, 21, 21),rgb(255, 255, 255),rgb(17, 90, 13));
     text-align: center;
 }
 
@@ -9,4 +10,28 @@ body{
 
 p{
     font-size: 22px;
+}
+
+ul, ol{
+    display: block;
+    width: fit-content;
+    text-align: left;
+    font-size: 20px;
+}
+
+ul{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+ol{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.image{
+    width: 500px;
+    height: 375px;
+    object-fit: scale-down;
+    object-position: 50% 50%;
 }
